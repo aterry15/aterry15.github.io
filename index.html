@@ -1,66 +1,92 @@
 <!DOCTYPE html>
 <html>
-    <style>
-        html {background-image: linear-gradient(rgb(0, 0, 0), rgb(255, 255, 255))}
-        html {height: 100%}
-        body {font-family: 'Times New Roman', Times, serif; color: lightblue;}
+  <style>
+    body {
+        background-image: linear-gradient(rgb(0, 0, 0), rgb(255, 255, 255));
+        font-family: 'Times New Roman', Times, serif;
+        color: lightblue;
+    }
+  </style>
 
-        .grid-container {
-  display: grid;
-  grid-template-columns: 250px 200px 200px 200px;
-  background-color: transparent;
-  gap: 10px, 20px
-}
-.grid-item {
-  background-color: transparent;
-  text-align: center;
-}
-    </style>
-    <head>
-        <title>Andrew's Webpage</title>
-    </head>
+  <head>
+    <title>Andrew's Webpage</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@3.7.3/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
 
-    <body>
-       </html><p><h1 style="text-align:center">Andrew Terry</h1></p>
-       </html><p><h2 style="text-align:center">About me</h2></p>
-       <hr> 
-       <!-- Line break-->
-        <p>I graduated from East Lawrence High School with a 4.0 GPA and rank 8 out of my class of 100+ students</p>
-        <p>I have an identical twin brother named Jacob and </p>
-        <p>Onyx</p>
-        <p>
-            <a href="https://www.nytimes.com/games/wordle/index.html">Wordle</a>
-        </p>
+  <body class="h-screen overflow-hidden">
+    <p class="text-2xl" style="text-align:center">Andrew Terry</p>
 
-        <div class="grid-container">
-            <div class="grid-item"> <img src="autumn.jpg" alt="Autumn" width="200" usemap="autumn">
-        </div>
-        <div class="grid-container">
-            <div class="grid-item"> <img src="pinkerton.jpg" alt="Pinkerton" width="200" usemap="pink">
-        </div>
-        <div class="grid-container">
-            <div class="grid-item"> <img src="daydream.png" alt="Pacific Daydream" width="200" usemap="daydream">
-        </div>
-        <div class="grid-container">
-            <div class="grid-item"> <img src="vanweezer.png" alt="Van Weezer" width="200" usemap="van">
-        </div>
-        
-    </body>
-    <map name="van">
-        <area shape="rect" coords="0,0,200,200" href="https://www.weezerpedia.com/wiki/Van_Weezer">
-    </map>
-    <map name="daydream">
-        <area shape="rect" coords="0,0,200,200" href="https://www.weezerpedia.com/wiki/Pacific_Daydream">
-    </map>
-    <map name="pink">
-        <area shape="rect" coords="0,0,200,200" href="https://www.weezerpedia.com/wiki/Pinkerton">
-    </map>
-    <map name="autumn">
-        <area shape="rect" coords="0,0,200,200" href="https://www.weezerpedia.com/wiki/SZNZ:_Autumn">
-    </map>
+    <p class="text-xl" style="text-align:center">About me</p>
+    <hr />
+    <!-- Line break-->
+    <p>
+      I graduated from East Lawrence High School with a 4.0 GPA and rank 8 out
+      of my class of 100+ students
+    </p>
+    <p>I have an identical twin brother named Jacob and</p>
+    <p>Onyx</p>
+    <p>
+      <a href="https://www.nytimes.com/games/wordle/index.html">Wordle</a>
+    </p>
 
-    <!-- Workspace
+    <div class="grid grid-cols-4 justify-items-center">
+      <div>
+        <a href="https://www.weezerpedia.com/wiki/SZNZ:_Autumn">
+          <img src="autumn.jpg" alt="Autumn" width="200" />
+        </a>
+      </div>
+      <div>
+        <a href="https://www.weezerpedia.com/wiki/Pinkerton">
+          <img src="pinkerton.jpg" alt="Pinkerton" width="200" />
+        </a>
+      </div>
+      <div>
+        <a href="https://www.weezerpedia.com/wiki/Pacific_Daydream">
+          <img src="daydream.png" alt="Pacific Daydream" width="200" />
+        </a>
+      </div>
+      <div>
+        <a href="https://www.weezerpedia.com/wiki/Van_Weezer">
+          <img src="vanweezer.png" alt="Van Weezer" width="200" />
+        </a>
+      </div>
+    </div>
+  </body>
+  <!-- <map name="van">
+    <area
+      shape="rect"
+      coords="0,0,200,200"
+      href="https://www.weezerpedia.com/wiki/Van_Weezer"
+    />
+  </map>
+  <map name="daydream">
+    <area
+      shape="rect"
+      coords="0,0,200,200"
+      href="https://www.weezerpedia.com/wiki/Pacific_Daydream"
+    />
+  </map>
+  <map name="pink">
+    <area
+      shape="rect"
+      coords="0,0,200,200"
+      href="https://www.weezerpedia.com/wiki/Pinkerton"
+    />
+  </map>
+  <map name="autumn">
+    <area
+      shape="rect"
+      coords="0,0,200,200"
+      href="https://www.weezerpedia.com/wiki/SZNZ:_Autumn"
+    />
+  </map> -->
+
+  <!-- Workspace
     Images won't click to website, column size/arrangement?
      -->
-
 </html>
