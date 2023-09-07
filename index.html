@@ -7,14 +7,12 @@
 
         .grid-container {
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: 250px 200px 200px 200px;
   background-color: transparent;
-  padding: 10px;
+  gap: 10px, 20px
 }
 .grid-item {
   background-color: transparent;
-  padding: 1px;
-  font-size: 10px;
   text-align: center;
 }
     </style>
@@ -35,21 +33,34 @@
         </p>
 
         <div class="grid-container">
-            <div class="grid-item"> <img src="autumn.jpg" alt="Autumn" width="200" usemap="#workmap">
+            <div class="grid-item"> <img src="autumn.jpg" alt="Autumn" width="200" usemap="autumn">
         </div>
         <div class="grid-container">
-            <div class="grid-item"> <img src="Blue.png" alt="The Blue Album" width="200" usemap="#bluemap">
+            <div class="grid-item"> <img src="pinkerton.jpg" alt="Pinkerton" width="200" usemap="pink">
+        </div>
+        <div class="grid-container">
+            <div class="grid-item"> <img src="daydream.png" alt="Pacific Daydream" width="200" usemap="daydream">
+        </div>
+        <div class="grid-container">
+            <div class="grid-item"> <img src="vanweezer.png" alt="Van Weezer" width="200" usemap="van">
+        </div>
         
     </body>
-    <map name="bluemap">
-        <area shape="rect" coords="0,0,200,200" href="https://www.weezerpedia.com/wiki/Weezer_(The_Blue_Album)">
+    <map name="van">
+        <area shape="rect" coords="0,0,200,200" href="https://www.weezerpedia.com/wiki/Van_Weezer">
     </map>
-    <map name="workmap">
+    <map name="daydream">
+        <area shape="rect" coords="0,0,200,200" href="https://www.weezerpedia.com/wiki/Pacific_Daydream">
+    </map>
+    <map name="pink">
+        <area shape="rect" coords="0,0,200,200" href="https://www.weezerpedia.com/wiki/Pinkerton">
+    </map>
+    <map name="autumn">
         <area shape="rect" coords="0,0,200,200" href="https://www.weezerpedia.com/wiki/SZNZ:_Autumn">
     </map>
- <!-- <ul>
-                <li>Weezer</li>
-                <li>Coding</li>
-                <li>Sleeping</li>
-            </ul> -->
+
+    <!-- Workspace
+    Images won't click to website, column size/arrangement?
+     -->
+
 </html>
